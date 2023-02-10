@@ -1,5 +1,13 @@
 package playground
 
+class Greeter {
+    fun greet(): String {
+      return "Satma0745 is Back!"
+    }
+}
+
 fun main() {
-    println("Satma0745 is Back!")
+    val greeter = Greeter()
+    val greeting = greeter.greet()
+    println(greeting)
 }
